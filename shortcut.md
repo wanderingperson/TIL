@@ -18,3 +18,5 @@
 #### 2. Alt + Insert : 코드를 생성한다. Getter/Setter가 대표적
 
 #### 3. Alt + Enter : 자동 변수 생성
+
+#### 4. Ctrl + N : 해당 클래스를 검색 후 이동
