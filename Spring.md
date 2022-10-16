@@ -26,5 +26,7 @@
 ![image](https://user-images.githubusercontent.com/114403546/196033417-cfb321eb-5fd6-45ea-a737-942ebe009367.png)
 
 1.해당 url로 접속 시 컨트롤러에서 Hello-static 컨트롤러가 있는지 확인한다
+
 2.해당 컨트롤러가 없으므로 resources:static/hello-static.html 을 찾은 후 반환한다.
+
 3.문자열 그대로 출력이 된다.
