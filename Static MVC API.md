@@ -69,6 +69,11 @@ model.addAttribute("name", name);의 "name"은 hello-templer.html에 있는 ${na
 
 ![image](https://user-images.githubusercontent.com/114403546/196152905-1d411abd-c5bf-4c0f-bb35-c06cdb01c027.png)
 
+1.해당 url로 접속 시 내장 톰캣서버에서 스프링에게 전달을 한다.
+
+2.스프링에서 helloController에 매핑이 되있는걸 확인 후 호출을 하는데, hello-template과 모델(name:spring)값을 반환한다.
+
+3.viewResolver가 hello-template.html을 찾은 후 html을 출력한다.
 
 
 
