@@ -65,5 +65,10 @@ model.addAttribute("name", name);의 "name"은 hello-templer.html에 있는 ${na
 
 ![image](https://user-images.githubusercontent.com/114403546/196151741-d06012d2-e6e7-4ffa-aa3a-1d97304eda6d.png)
 
+ - 이미지로 보는 MVC 컨텐츠
+
+![image](https://user-images.githubusercontent.com/114403546/196152905-1d411abd-c5bf-4c0f-bb35-c06cdb01c027.png)
+
+
 
 
