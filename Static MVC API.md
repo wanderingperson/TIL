@@ -76,4 +76,57 @@ model.addAttribute("name", name);의 "name"은 hello-templer.html에 있는 ${na
 3.viewResolver가 hello-template.html을 찾은 후 html을 출력한다.
 
 
+#
+
+- API 코딩 예시
+
+![image](https://user-images.githubusercontent.com/114403546/197147129-7109fc40-7c79-4fc7-b248-a71ec0482815.png)
+
+![image](https://user-images.githubusercontent.com/114403546/197147269-a7bda42f-a6f2-4d83-b472-20ebacfc2d57.png)
+
+![image](https://user-images.githubusercontent.com/114403546/197147298-08908166-1cf4-4e6d-89db-0bb6aa358a32.png)
+
+
+![image](https://user-images.githubusercontent.com/114403546/197148819-2f8a2578-561e-4df0-afc8-4455df71ec4a.png)
+
+![image](https://user-images.githubusercontent.com/114403546/197148858-ecb79620-4c1a-4b3e-8285-31f4e00adb35.png)
+
+밑에 Hello-api는 Json 방식으로 출력된다.
+
+
+
+ - 이미지로 보는 ResponseBody 작동원리
+
+![image](https://user-images.githubusercontent.com/114403546/197149709-913e3f50-78cd-4b43-a6be-614fb91ffdc5.png)
+
+1.해당 url로 접속 시 내장 톰캣 서버에서 스프링에게 전달을 한다.
+
+2.스프링에서 @ResponseBody를 인식 한다. @ResponseBody는 Http로 그대로 응답을 넘겨줘야 한다.
+
+3.HttpMessageConverter가 작동한다. 단순 문자를 전달해야 할 시 StringConverter, 객체를 전달해야 할 시 JsonConverter가 작동을 한다.
+
+4.이때 Json방식으로 데이터를 만들어서 요청한 웹브라우저에 전달을 해준다.
+
+ - @ResponseBody에 관한 상세 내용
+
+![image](https://user-images.githubusercontent.com/114403546/197150825-71c59e72-9c13-499b-8503-87f9dbf36a24.png)
+
+(객체를 Json형식으로 바꿔주는 라이브러리중 Jackson이 많이 쓰인다)
+
+
+#
+
+## 정적 컨텐츠, MVC, API 비교 정리
+
+- 정적 컨텐츠
+
+파일을 그대로 출력한다
+
+- MVC
+
+템플릿 엔진을 MVC 방식으로 분할해서 view를 렌더링해서 렌더링된 html을 클라이언트에게 전달해준다 
+
+- API
+
+객체를 HttpMessageCoverter를 통해 Json방식으로 변환해서 클라이언트에게 반환한다.
 
