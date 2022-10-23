@@ -20,3 +20,41 @@
 > 아직 데이터 저장소를 설정 안해서 인터페이스로 구현 클래스를 변경 하도록 설계한다
 > 회원을 저장하는 건 MemberRepository에 저장예정(데이터 저장소, 즉 DB가 아직 선정되지 않은 상태로 가정)
 > 일단은 데이터를 단순하게 저장한다.
+
+#
+
+### 회원 도메인과 멤버 리포지토리 만들기
+
+- 회원 객체
+
+![image](https://user-images.githubusercontent.com/114403546/197400239-ac6cee82-4725-4853-becd-fe827df31188.png)
+
+- 회원 리포지토리 인터페이스
+
+![image](https://user-images.githubusercontent.com/114403546/197400311-a71b5913-080e-496f-972d-e500958bc258.png)
+
+- 회원 리포지토리 메모리 구현체  
+
+![image](https://user-images.githubusercontent.com/114403546/197400392-ce47fe83-5387-494b-9907-4126082b8089.png)
+![image](https://user-images.githubusercontent.com/114403546/197400406-ecb1dbe4-2e05-4bd5-be6d-1cb5129df7a8.png)
+
+> - ###  private static Map<Long, Member> store = new HashMap<>();에서 Map<Long, Member>의 뜻
+> 
+> Map은 Map<Key, Value>으로 이루어져 있다. Key는 고유값이고, Value는 중복이 가능하다. 
+> 
+> Key의 값이 동일한데 Value값이 다르면 최신 데이터로 갱신이 된다.
+
+> - ### Optional.ofNullable(store.get(id));에서 store.get(id)만 안쓰고 Optional.ofNullable을 사용하는 이유
+>
+>store.get(id)를 사용하면 null값을 반환할시 오류가 생기기 때문에 Optional을 이용해서 오류가 발생하지 않는다.
+
+> - ### store.values().stream()에서 stream()의 뜻
+> 
+> stream은 컬렉션(store.values())에 저장되어 있는 요소들을 하나씩 찾는것이다
+
+> - ### .filter(member -> member.getName().equals(name))와 .findAny();의 뜻
+> 
+> 검색을 해서(filter) member가 member.getName의 name과 같은게(equals)
+> 
+> .findAny(); 하나라도 있으면 반환한다.
+
