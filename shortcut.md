@@ -22,3 +22,7 @@
 #### 4. Ctrl + N : 해당 클래스를 검색 후 이동
 
 #### 5. Ctrl + / : 해당부분 전체 주석처리(드래그해서 범위지정)
+
+#### 6. Ctrl + I : 오버라이드할 메소드 생성, (implement methods설정)
+
+![image](https://user-images.githubusercontent.com/114403546/197399607-94902045-577a-40d0-849e-02f4845852ad.png)
