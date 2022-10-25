@@ -58,3 +58,52 @@
 > 
 > .findAny(); 하나라도 있으면 반환한다.
 
+### 회원 리포지토리 테스트 케이스 작성
+
+개발한 기능을 실행해서 테스트 할 때 자바의 main 메서드를 통해서 실행하거나, 웹 애플리케이션의
+컨트롤러를 통해서 해당 기능을 실행한다. 
+
+다만 이러한 방법은 준비하고 실행하는데 오래 걸리고, 반복 실행하기
+어렵고 여러 테스트를 한번에 실행하기 어렵다는 단점이 있다. 
+
+자바는 JUnit이라는 프레임워크로 테스트를
+실행해서 이러한 문제를 해결한다.
+
+- 회원 리포지토리 메모리 구현체 테스트
+
+ #### 멤버가 저장되는지 확인하는 테스트
+
+![image](https://user-images.githubusercontent.com/114403546/197781990-d41dc16c-c23e-429b-82c3-eef62eaf4735.png)
+
+>Optional에서 값을 꺼내올려면 get()을 사용한다.
+
+
+>- ### Assertions.assertEquals(result, member)의 뜻
+>member의 값이 result와 같으면 참을 반환한다 (Junit방식)
+
+
+>- ### Assertions.assertThat(member).isEqualTo(result)의 뜻
+>member의 값이 result와 같으면 참을 반환한다. (Assertj방식)
+
+
+#### 멤버 이름 검색이 되는지 확인하는 테스트
+
+![image](https://user-images.githubusercontent.com/114403546/197783814-e37beebe-aaa5-4026-b8aa-05af40f957e2.png)
+
+#### 멤버 회원 수가 리스트의 수와 일치하는지 확인하는 테스트
+
+![image](https://user-images.githubusercontent.com/114403546/197804095-82a5f283-1ffb-4fb0-ae5b-dcb5c08b5174.png)
+
+>이 테스트만 하면 정상적으로 작동하지만, 전체 테스트를 할시 오류가 생긴다.
+
+![image](https://user-images.githubusercontent.com/114403546/197804597-0b9507b0-dd75-4eb8-afdf-9adc2e1da20e.png)
+
+>이러한 오류가 생기는 이유는 멤버이름 검색테스트와 멤버회원수 테스트에 똑같은 멤버 이름이라서 오류가 나기때문이다
+>
+>이런 경우를 대비해서 테스트가 끝날때마다 코드를 지워주는 역할이 필요하다
+
+![image](https://user-images.githubusercontent.com/114403546/197805239-f373320e-0633-4a8c-b64d-ee0d5b918607.png)
+
+>aftereach는 테스트가 끝날때마다 작동하고
+>
+>clearstore는 저장되있는걸 삭제한다.
