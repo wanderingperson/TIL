@@ -26,3 +26,10 @@
 #### 6. Ctrl + I : 오버라이드할 메소드 생성, (implement methods설정)
 
 ![image](https://user-images.githubusercontent.com/114403546/197399607-94902045-577a-40d0-849e-02f4845852ad.png)
+
+#### 7. Ctrl + Shift + T : 테스트 만들기
+
+![image](https://user-images.githubusercontent.com/114403546/198040826-161a373c-033d-4081-8f7b-9f6e0facc134.png)
+
+![image](https://user-images.githubusercontent.com/114403546/198040926-3da079bb-d0c7-4795-94ab-2a95e03fd91b.png)
+
