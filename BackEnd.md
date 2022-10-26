@@ -107,3 +107,10 @@
 >aftereach는 테스트가 끝날때마다 작동하고
 >
 >clearstore는 저장되있는걸 삭제한다.
+
+#### 회원 서비스 개발
+
+![image](https://user-images.githubusercontent.com/114403546/198039806-209b7e0b-77f4-494f-a7e3-73273a93c4c0.png)
+
+#### 회원 서비스 테스트
+
