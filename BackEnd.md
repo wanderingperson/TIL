@@ -114,3 +114,38 @@
 
 #### 회원 서비스 테스트
 
+![image](https://user-images.githubusercontent.com/114403546/198199072-5ff55002-bd8c-4152-9824-f6c6105e4848.png)
+
+>테스트를 작성할때는 given, when, then을 이용해서 작성을 하는게 좋다
+
+>given : 이런상황내에서 무슨상황이 주어졌는데
+>
+>when : 이걸 실행했을때
+>
+>then : 이런 결과가 나와야 한다
+
+#### 테스트는 정상작동보다 변수를 처리(예외처리)하는것이 더 중요하다.
+
+#### 중복 회원 예외 테스트
+
+![image](https://user-images.githubusercontent.com/114403546/198203158-4b93ea2f-455a-4aa9-ad89-6c0238ae7085.png)
+
+
+>try, catch를 넣어서 예외처리를 해도 되지만 일일이 넣기가 애매해서 assertThrows를 넣는다
+>memberService에 member2를 넣었을때 예외가 발생해야한다.
+
+>이렇게하면 회원가입테스트와 중복회원예외 테스트의 멤버 이름이 같아서 오류가 생긴다.
+>
+>따라서 마찬가지로 clearstore을 해야하는데 memberService가 아닌 MemoryMemberRepository를 클리어해줘야한다
+
+![image](https://user-images.githubusercontent.com/114403546/198203780-5490397f-cf7b-42f6-95e2-745a4eca2508.png)
+
+>하지만 이렇게 설정을 하면
+>#### Test의 MemoryMemberRepository는 new MemoryMemberRepository라서 
+>같은 MemoryMemberRepository로 바꿔주는게 좋다. (이 상황에서는 MemoryMemberRepositry의 근간이 되는 MemberRepository가 static형태여서 큰 상관이 없지만 static이 아닐 시 안좋음)
+
+![image](https://user-images.githubusercontent.com/114403546/198204710-2229a6ac-0bd5-46e4-9b27-17efde048c96.png)
+
+>따라서 의존성주입(DI, Dependency Injection)을 사용한다.
+>새로운 MemoyMemberRepository를 만들고 위의 MemoyMemberRepository memberRepository에 넣은다음
+>디렉토리경로 MemberService의 memberRepository에 넣어줘서 같은 memberRepository를 사용하게 만든다.
