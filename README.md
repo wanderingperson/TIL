@@ -10,3 +10,7 @@
 - 회원 관리 예제 - 백엔드 개발
 
     [Backend.md](https://github.com/wanderingperson/TIL/blob/main/BackEnd.md)
+
+- 스프링 빈과 의존관계
+
+    [DI.md](https://github.com/wanderingperson/TIL/blob/main/DI.md)
