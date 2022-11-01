@@ -49,3 +49,29 @@
 > @PostMapping에 의해 create 메소드가 호출이 되면서 MemberForm에 setName에 의해 값이 저장이 된다.
 > 
 > 값을 꺼낼때는(조회) getName을 이용해서 꺼낼 수 있다.
+
+### 회원 웹 기능-조회
+
+![image](https://user-images.githubusercontent.com/114403546/199260372-df4b4a08-9590-4dd4-8684-ec91b7344c9d.png)
+
+![image](https://user-images.githubusercontent.com/114403546/199260489-a8f64a3f-eb1c-4b84-b350-7a23412a516f.png)
+
+![image](https://user-images.githubusercontent.com/114403546/199260571-8f5aa447-1b3f-4d47-8f3b-48d3821f98ab.png)
+
+>회원 등록으로 Sawano Hiroyuki와 Kajiura Yuki를 등록했다.
+
+![image](https://user-images.githubusercontent.com/114403546/199260709-0339bd34-8685-41a0-9248-71b3396e555c.png)
+
+>회원 목록에 들어간 결과
+
+![image](https://user-images.githubusercontent.com/114403546/199261590-d1ed0a49-1453-453c-a4b6-58b3d0aca945.png)
+
+>rememberlist.html의 members(MemberController.java의 mode.addAttribute(attributeName:----)과 동일해야한다)
+>
+>id와 name은 private으로 설정되있어서 getId와 getName을 통해 가져와서 출력한다.
+>
+>그것이 ${member.id}와 ${member.name}이다.
+
+#### 만약 Demoapplication을 재실행 시 데이터가 날라가서 다시 등록을 해야한다.
+
+#### 따라서 데이터들을 파일이나 데이터베이스에 저장을 해야한다.
