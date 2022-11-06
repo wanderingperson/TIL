@@ -37,3 +37,19 @@
 ![image](https://user-images.githubusercontent.com/114403546/199953486-cdb9cdbc-d169-4654-8651-da6fc385a160.png)
 
 ![image](https://user-images.githubusercontent.com/114403546/199954737-88b3a2ba-5231-4c0f-8699-ef833fab6f16.png)
+
+![image](https://user-images.githubusercontent.com/114403546/200174955-63c9ec7e-0889-46ce-a733-d1c99e8975ed.png)
+
+>Jdbc로 구현할 Repository 클래스 생성 후 MemberRepository로 구현
+
+![image](https://user-images.githubusercontent.com/114403546/200175871-a938339b-feb3-4b0e-a2cc-d7ec46391c9c.png)
+
+>ResultSet=결과를 받는것
+>
+>conn = getConnection(); //연결을 가져온다
+>
+>pstmt.setString(1, member.getName()); //숫자1은 insert into ~~ values(?)의 (?)와 매칭된다. 그 후 그 안에 member.getName()의 값을 넣는다.
+>
+>pstmt.executeUpdate(); //DB의 실제 쿼리값이 날라간다
+>
+>rs = pstmt.getGeneratedKeys(); //Statement.RETURN_GENERATED_KEYS와 매칭되고, 이 RETURN_GENERATED_KEYS값을 가져온다.
