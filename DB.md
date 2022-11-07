@@ -55,3 +55,17 @@
 >rs = pstmt.getGeneratedKeys(); //Statement.RETURN_GENERATED_KEYS와 매칭되고, 이 RETURN_GENERATED_KEYS값을 가져온다.
 
 ![image](https://user-images.githubusercontent.com/114403546/200337152-b9e46ff2-2f2a-478c-985b-b180204b4bc5.png)
+
+>스프링을 쓰는 이유 : 기존의 코드는 손대지 않고 어플리케이션 어셈블리만 편집하면 다른걸 건드릴 필요가 없다.
+
+![image](https://user-images.githubusercontent.com/114403546/200341563-bac69daf-96ad-4255-95bf-9e795669766e.png)
+
+![image](https://user-images.githubusercontent.com/114403546/200342435-9e0158c6-cc90-4839-87f5-c6e867197993.png)
+
+>MemberService는 MemberRepository에 의존하고 있고, MemberRepository는 MemoryMemberRepository와 JdbcMemberRepository의 구현체가 있다.
+>
+>스프링 컨테이너에서 <memory>memberRepository를 빼고 <jdbc>memberRepository로만 변경하면 나머진 변경할 필요가없다.
+
+#
+  
+### 스프링 통합 테스트
