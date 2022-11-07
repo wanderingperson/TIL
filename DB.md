@@ -53,3 +53,5 @@
 >pstmt.executeUpdate(); //DB의 실제 쿼리값이 날라간다
 >
 >rs = pstmt.getGeneratedKeys(); //Statement.RETURN_GENERATED_KEYS와 매칭되고, 이 RETURN_GENERATED_KEYS값을 가져온다.
+
+![image](https://user-images.githubusercontent.com/114403546/200337152-b9e46ff2-2f2a-478c-985b-b180204b4bc5.png)
