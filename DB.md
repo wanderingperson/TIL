@@ -69,3 +69,28 @@
 #
   
 ### 스프링 통합 테스트
+
+  ![image](https://user-images.githubusercontent.com/114403546/200840819-c36713e0-1753-46d7-bb4c-1197694bdb45.png)
+  
+  >DB에 Higashino Keigo가 이미 있어서 오류가 발생한다.
+  
+  ![image](https://user-images.githubusercontent.com/114403546/200840980-dd2b75f3-d4d3-445b-804c-4eaeab360748.png)
+  
+>따라서 DB에 등록돼있는 멤버를 삭제해야 한다.
+
+  ![image](https://user-images.githubusercontent.com/114403546/200841555-2e28e27a-afa0-4320-9f36-c7aaa9482df9.png)
+
+  ![image](https://user-images.githubusercontent.com/114403546/200841687-54381915-4688-4af3-a3f7-ce3c65921c14.png)
+
+  >@Transactional이 없는 상태에서 실행후 재실행을 할 시 DB에 이미 존재하는 인원으로 처리가 돼서 오류가 발생한다.
+  >즉, @Transactional은 테스트를 하기전에 실행 시 테스트가 끝나고 DB를 롤백시킨다. 
+  >즉, @Transactional 어노테이션을 추가하면 @AfterEach와 @BeforeEach없이 테스트를 반복해서 할 수 있다.
+  
+  ![image](https://user-images.githubusercontent.com/114403546/200842340-f1fc7ed1-adba-45ca-9299-896ea1da27c9.png)
+  
+  >하지만 @SpringBootTest와 @Transactional을 사용하면서 테스트하는건(통합테스트) 시간이 오래 걸리기때문에
+  >
+  >단위테스트를 분할해서 하고 통합테스트는 적게 하는게 권장된다. (1번째사진 단위테스트105ms, 2번째사진 통합테스트666ms)
+  
+   ![image](https://user-images.githubusercontent.com/114403546/200842844-499b2f16-f23c-4743-b4b1-a456b7207979.png)
+	![image](https://user-images.githubusercontent.com/114403546/200843072-6c9e5bc5-4393-410c-8ce3-12c0790146ec.png)
