@@ -92,5 +92,21 @@
   >
   >단위테스트를 분할해서 하고 통합테스트는 적게 하는게 권장된다. (1번째사진 단위테스트105ms, 2번째사진 통합테스트666ms)
   
-   ![image](https://user-images.githubusercontent.com/114403546/200842844-499b2f16-f23c-4743-b4b1-a456b7207979.png)
-	![image](https://user-images.githubusercontent.com/114403546/200843072-6c9e5bc5-4393-410c-8ce3-12c0790146ec.png)
+ ![image](https://user-images.githubusercontent.com/114403546/200842844-499b2f16-f23c-4743-b4b1-a456b7207979.png)
+![image](https://user-images.githubusercontent.com/114403546/200843072-6c9e5bc5-4393-410c-8ce3-12c0790146ec.png)
+  
+#
+  
+  ### 스프링 JdbcTemplate
+
+  ![image](https://user-images.githubusercontent.com/114403546/201106691-e6d41a90-642a-4da5-8f03-893d7075d1af.png)
+  
+  >생성자가 하나만 있을떄 스프링빈에 등록되면 @Autowired생략 가능하다
+  
+  ![image](https://user-images.githubusercontent.com/114403546/201107536-9f625559-9342-4e54-9cad-74640186d092.png)
+  
+  ![image](https://user-images.githubusercontent.com/114403546/201107837-0430f128-477b-4a7f-b51a-204c7f9c9a00.png)
+  
+  >람다 형식으로 변경
+  
+  
