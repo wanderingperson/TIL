@@ -109,4 +109,17 @@
   
   >람다 형식으로 변경
   
+  ![image](https://user-images.githubusercontent.com/114403546/201525930-72a9e3d0-3f51-4025-8241-54bae5467d53.png)
   
+  >findById는 jdbcTemplate에 있는 쿼리를 지우고 memberRowMapper()를 통해 결과값을 매핑후 List<Member>를 통해 받아서 Optional형태로 변환
+  >
+  >findByName는 jdbcTemplate에 있는 쿼리를 지우고 memberRowMapper()를 통해 결과값을 매핑후 List<Member>를 통해 받아서 Optional형태로 변환
+  >
+  >findAll은 리스트로 반환된 memberRowMapper의 결과를 member로 객체를 매핑후 결과값을 가져온다
+  
+  
+  >테스트 코드는 백엔드에서 매우 중요하다.
+  >
+  >개발 일정중 60~70%는 테스트 코드를 짜는데 쓰인다고 보면된다.
+  >
+  >테스트코드를 얼마나 꼼꼼히 짜느냐가 중요
