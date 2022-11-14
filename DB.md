@@ -127,3 +127,26 @@
   #
   
   ### JPA
+  
+  JdbcTemplate을 사용시 개발해야하는 반복적인 코드가 줄어들었지만 SQL은 직접 작성해야한다.
+  
+  하지만 JPA사용 시 SQL을 자동으로 처리해준다.
+  
+  ![image](https://user-images.githubusercontent.com/114403546/201685102-3eb6a8ac-ed16-4b5a-8266-748740791cbf.png)
+  
+  국내에서는 마이바티스를 JPA보다 많이 사용하고 있었는데 일정기점 이후로 JPA사용세가 꾸준히 증가하고 있다.
+  
+  ![image](https://user-images.githubusercontent.com/114403546/201686333-27d2c977-7362-44bd-9a37-935230896d06.png)
+  
+  >spring.jpa.show-sql = true : jpa가 날린 sql을 확인할 수 있다.
+  >
+  >spring.jpa.hibernate.ddl-auto = none : jpa사용시 회원객체를 보고 자동으로 테이블을 생성하는데, 이미 생성된 걸 사용할 것이므로 자동생성기능을 끈다.
+  
+  >JPA는 자바진영의 표준 인터페이스고 구현은 각 업체에서 한다.
+  >JPA는 ORM기술이다. Object, Relational, Mapping
+  
+  ![image](https://user-images.githubusercontent.com/114403546/201687514-f29e1ef5-3716-43bb-b0de-8030640bb18f.png)
+  
+  >@Entity : JPA에서 관리를 한다.
+  >
+  >@Id : PK(기본 키)
