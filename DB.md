@@ -150,3 +150,19 @@
   >@Entity : JPA에서 관리를 한다.
   >
   >@Id : PK(기본 키)
+  
+  ![image](https://user-images.githubusercontent.com/114403546/201944369-7d592e99-6e75-4b83-9b28-aef2a7dc2db1.png)
+  
+  >JPA를 쓰려면 EntityManager를 주입받아야 한다.
+  
+![image](https://user-images.githubusercontent.com/114403546/201945486-1843015e-5dcd-4658-859c-3d4152636cc7.png)
+  
+  >Member m을 조회 후 member m(Entity)자체를 셀렉트 한다. 즉 매핑을 할 필요가 없다.
+  
+![image](https://user-images.githubusercontent.com/114403546/201948871-e4591112-d515-48bf-8d68-e741a8170c57.png)
+
+  >JPA를 쓰려면 항상 트랜잭션이 있어야 한다. 따라서 MemberService에 @Transactional을 추가했다. 
+  
+  ![image](https://user-images.githubusercontent.com/114403546/201950121-6b7fbe0d-45a7-46d3-85f5-2f0bc9785c95.png)
+  
+  ![image](https://user-images.githubusercontent.com/114403546/201950171-4b8088c9-d2b2-4513-94f7-b4ad106f7060.png)
