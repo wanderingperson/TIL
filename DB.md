@@ -171,4 +171,18 @@
   
   ### 스프링 데이터 JPA
   
+  ![image](https://user-images.githubusercontent.com/114403546/202198271-fe7ff283-9a9e-4ce4-8071-f2aea1604659.png)
   
+  ![image](https://user-images.githubusercontent.com/114403546/202198630-2347aba1-bab5-4d87-9982-5f0d60155eab.png)
+  
+  >인터페이스를 받을때는 implements가 아닌 extends를 사용한다. 또한 다중상속이 가능하다.
+  
+ ![image](https://user-images.githubusercontent.com/114403546/202199863-25cb8599-d784-471a-b74c-29a3d8eaedc3.png)
+
+  >스프링 컨테이너에서 MemberRepository를 찾는데 스프링 컨테이너에선 MemberRespository가 없는 상태이다.
+  >
+  >다만 위의 SpringDataJpaMemberRepository가 JpaRepository를 extends했다.
+  >
+  >JpaRepository는 스프링 데이터 JPA가 인터페이스에 대한 구현체를 만들어 내고 스프링 빈에 등록한다.
+  >
+  >그후 주입을 받는다.
