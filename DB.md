@@ -166,3 +166,9 @@
   ![image](https://user-images.githubusercontent.com/114403546/201950121-6b7fbe0d-45a7-46d3-85f5-2f0bc9785c95.png)
   
   ![image](https://user-images.githubusercontent.com/114403546/201950171-4b8088c9-d2b2-4513-94f7-b4ad106f7060.png)
+
+  #
+  
+  ### 스프링 데이터 JPA
+  
+  
