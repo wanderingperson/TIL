@@ -176,8 +176,7 @@
   ![image](https://user-images.githubusercontent.com/114403546/202198630-2347aba1-bab5-4d87-9982-5f0d60155eab.png)
   
   >인터페이스를 받을때는 implements가 아닌 extends를 사용한다. 또한 다중상속이 가능하다.
-  
-  ![image](https://user-images.githubusercontent.com/114403546/202442327-1d28de90-967b-4ced-8792-5d907ff37cc5.png)
+
   
  ![image](https://user-images.githubusercontent.com/114403546/202199863-25cb8599-d784-471a-b74c-29a3d8eaedc3.png)
 
@@ -188,3 +187,10 @@
   >JpaRepository는 스프링 데이터 JPA가 인터페이스에 대한 구현체를 만들어 내고 스프링 빈에 등록한다.
   >
   >그후 주입을 받는다.
+  
+    
+  ![image](https://user-images.githubusercontent.com/114403546/202442327-1d28de90-967b-4ced-8792-5d907ff37cc5.png)
+  
+  ![image](https://user-images.githubusercontent.com/114403546/202454857-fefb91a2-af3c-46f4-b4c2-ab2f1303ff7a.png)
+  
+![image](https://user-images.githubusercontent.com/114403546/202454932-a2a2d9fc-044e-41ed-bf0a-f9e7b9b29469.png)
