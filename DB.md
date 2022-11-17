@@ -177,6 +177,8 @@
   
   >인터페이스를 받을때는 implements가 아닌 extends를 사용한다. 또한 다중상속이 가능하다.
   
+  ![image](https://user-images.githubusercontent.com/114403546/202442327-1d28de90-967b-4ced-8792-5d907ff37cc5.png)
+  
  ![image](https://user-images.githubusercontent.com/114403546/202199863-25cb8599-d784-471a-b74c-29a3d8eaedc3.png)
 
   >스프링 컨테이너에서 MemberRepository를 찾는데 스프링 컨테이너에선 MemberRespository가 없는 상태이다.
