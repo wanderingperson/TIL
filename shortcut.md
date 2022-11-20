@@ -33,3 +33,7 @@
 
 ![image](https://user-images.githubusercontent.com/114403546/198040926-3da079bb-d0c7-4795-94ab-2a95e03fd91b.png)
 
+#### 8. Ctrl + Shift + Alt + T : 리팩터링(결과값 변경없이 코드의 구조 재조정)
+
+![image](https://user-images.githubusercontent.com/114403546/202907276-ffd0974c-1b59-4423-9c0d-223ac9f7797f.png)
+
