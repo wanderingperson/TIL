@@ -38,3 +38,21 @@
 ![image](https://user-images.githubusercontent.com/114403546/202907725-504a27bd-43cc-4876-aee9-e8cc47b2e4f1.png)
 
 >실행을 할 시 소요시간이 발생한다.
+
+#### AOP 적용 전 의존관계
+
+![image](https://user-images.githubusercontent.com/114403546/202908134-d7976821-3f5b-4c79-b11f-e08dd1478551.png)
+
+#### AOP 적용 후 의존관계
+
+![image](https://user-images.githubusercontent.com/114403546/202908416-31b09656-ce39-45ed-a932-1a6560372ccb.png)
+
+>컨테이너에 스프링빈을 등록할 때 진짜 스프링빈대신 가짜 스프링빈이 먼저 작업을 하고 작업이 끝나면 진짜 스프링빈을 호출한다.
+
+#### AOP 적용 전 전체 그림
+
+![image](https://user-images.githubusercontent.com/114403546/202908354-451f85ac-e137-452a-9213-a50d4098379c.png)
+
+#### AOP 적용 후 전체 그림
+
+![image](https://user-images.githubusercontent.com/114403546/202908387-76d9464a-85e7-4a3e-8bba-10ae9e626752.png)
