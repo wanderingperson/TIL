@@ -34,3 +34,6 @@
 
 ### 스프링 부트와 JPA활용
 
+- 프로젝트 환경설정
+    [Projectopt.md](https://github.com/wanderingperson/TIL/blob/main/Projectopt.md)
+
