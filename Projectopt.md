@@ -14,3 +14,12 @@ org.hibernate.SQL은 로거를 통해서 출력하기 때문에 주로 사용한
 @Transactional은 테스트가 끝나면 바로 롤백을 한다.(데이터가 지워진다)
 
 @Rollback은 롤백유무를 뜻하고 (value=false)로 할시 롤백을 비활성화한다.
+
+
+![image](https://user-images.githubusercontent.com/114403546/205501374-e327370b-57cb-49fd-bca6-45d8b90467dd.png)
+
+FK는 Foreign Key로 외래키다.
+
+외래키는 보통 일대다 관계에서 다에 속해있는 경우가 많다.
+
+![image](https://user-images.githubusercontent.com/114403546/205501526-8bda3808-0ca1-4bc2-971b-124be0720803.png)
