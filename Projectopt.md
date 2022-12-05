@@ -27,3 +27,8 @@ FK는 Foreign Key로 외래키다.
 ![image](https://user-images.githubusercontent.com/114403546/205646346-e07d7aeb-8152-4ca2-8221-a1743f555408.png)
 
 ![image](https://user-images.githubusercontent.com/114403546/205646676-7dd0d062-6582-4a81-a9e9-25db6568aba7.png)
+
+![image](https://user-images.githubusercontent.com/114403546/205647797-44f1d6f0-0628-47b0-bf68-8f665c57e490.png)
+
+도메인의 Member클래스는 ![image](https://user-images.githubusercontent.com/114403546/205647880-5d812194-0858-4b76-b3ac-c85458f7f4f0.png)에 있는 id, name, address, orders가 들어간다.
+
