@@ -23,3 +23,5 @@ FK는 Foreign Key로 외래키다.
 외래키는 보통 일대다 관계에서 다에 속해있는 경우가 많다.
 
 ![image](https://user-images.githubusercontent.com/114403546/205501526-8bda3808-0ca1-4bc2-971b-124be0720803.png)
+
+![image](https://user-images.githubusercontent.com/114403546/205646346-e07d7aeb-8152-4ca2-8221-a1743f555408.png)
