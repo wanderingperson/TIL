@@ -37,3 +37,5 @@ FK는 Foreign Key로 외래키다.
 ![image](https://user-images.githubusercontent.com/114403546/206934483-fbe194e9-a021-46a1-a453-e1b90b8e0d9c.png)
 
 ![image](https://user-images.githubusercontent.com/114403546/206934595-2efd83bb-e211-4d01-801f-33fa0897d5cd.png)
+
+![image](https://user-images.githubusercontent.com/114403546/206934750-15fa65c3-f4d3-409a-8367-fb9ce76a3a0d.png)
