@@ -32,3 +32,4 @@ FK는 Foreign Key로 외래키다.
 
 도메인의 Member클래스는 ![image](https://user-images.githubusercontent.com/114403546/205647880-5d812194-0858-4b76-b3ac-c85458f7f4f0.png)에 있는 id, name, address, orders가 들어간다.
 
+![image](https://user-images.githubusercontent.com/114403546/206934351-f4f05a3d-edac-4b7d-abff-41a04dd16357.png)
