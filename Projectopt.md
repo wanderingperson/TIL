@@ -41,3 +41,11 @@ FK는 Foreign Key로 외래키다.
 ![image](https://user-images.githubusercontent.com/114403546/206934750-15fa65c3-f4d3-409a-8367-fb9ce76a3a0d.png)
 
 ![image](https://user-images.githubusercontent.com/114403546/206934761-a7958a79-3f44-4cd9-a20c-6b3106cf060a.png)
+
+### 엔티티 설계 시 주의점
+
+![image](https://user-images.githubusercontent.com/114403546/208660294-27c189df-403e-49fd-a244-2f9f4ae2551e.png)
+
+![image](https://user-images.githubusercontent.com/114403546/208660420-ecc985cc-8e24-47c2-a2fe-6f3795b30945.png)
+
+즉시로딩을 할 시 모든 연관관계를 가져오느라 시간이 매우 소요된다.
