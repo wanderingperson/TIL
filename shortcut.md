@@ -37,3 +37,7 @@
 
 ![image](https://user-images.githubusercontent.com/114403546/202907276-ffd0974c-1b59-4423-9c0d-223ac9f7797f.png)
 
+#### 9. Ctrl + Shift + F : Find in Path(해당 문구가 들어있는 경로들을 검색)
+
+![image](https://user-images.githubusercontent.com/114403546/208662202-1a9a4e43-3c06-4c2e-9b54-98dfbcd6da30.png)
+
