@@ -49,3 +49,5 @@ FK는 Foreign Key로 외래키다.
 ![image](https://user-images.githubusercontent.com/114403546/208660420-ecc985cc-8e24-47c2-a2fe-6f3795b30945.png)
 
 즉시로딩을 할 시 모든 연관관계를 가져오느라 시간이 매우 소요된다.
+
+![image](https://user-images.githubusercontent.com/114403546/208665723-f4358a93-48bf-4ace-96e2-0e2579dad665.png)
