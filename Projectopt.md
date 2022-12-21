@@ -51,3 +51,17 @@ FK는 Foreign Key로 외래키다.
 즉시로딩을 할 시 모든 연관관계를 가져오느라 시간이 매우 소요된다.
 
 ![image](https://user-images.githubusercontent.com/114403546/208665723-f4358a93-48bf-4ace-96e2-0e2579dad665.png)
+
+![image](https://user-images.githubusercontent.com/114403546/208841178-177e38a6-a008-48d9-80ea-75258abf9e85.png)
+
+![image](https://user-images.githubusercontent.com/114403546/208841577-2c547888-e0b7-40ac-abf6-c4e04e88e6ab.png)
+
+https://docs.spring.io/spring-boot/docs/2.1.3.RELEASE/reference/htmlsingle/#howtoconfigure-hibernate-naming-strategy
+
+http://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/
+
+예시 : orderTable -> order_table로 변경된다.
+
+논리명 : 테이블이나 컬럼명을 명시하지 않았을때 기본옵션
+
+물리명 : 모든 테이블이나 컬럼명에 무조건 적용되는 필수옵션 으로 생각하면 된다.
