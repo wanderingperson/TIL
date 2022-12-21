@@ -71,3 +71,7 @@ http://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/
 #### cascade는 영속화로 부모 엔티티가 영속화될 때 자식 엔티티도 같이 영속화되고, 부모 엔티티가 삭제될 때 자식 엔티티도 삭제되는 등 
 
 #### 특정 엔티티를 영속 상태로 만들 때 연관된 엔티티도 함께 영속 상태로 전이되는 것을 의미한다.
+
+![image](https://user-images.githubusercontent.com/114403546/208844127-c613cca2-659e-46f9-94fd-bd9c32384a70.png)
+
+![image](https://user-images.githubusercontent.com/114403546/208844316-10d5bec8-70b5-4452-b702-6bf259a785f4.png)
