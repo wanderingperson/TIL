@@ -65,3 +65,9 @@ http://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/
 논리명 : 테이블이나 컬럼명을 명시하지 않았을때 기본옵션
 
 물리명 : 모든 테이블이나 컬럼명에 무조건 적용되는 필수옵션 으로 생각하면 된다.
+
+![image](https://user-images.githubusercontent.com/114403546/208842812-26400be4-b6b7-4369-8bee-dac3d60e1550.png)
+
+#### cascade는 영속화로 부모 엔티티가 영속화될 때 자식 엔티티도 같이 영속화되고, 부모 엔티티가 삭제될 때 자식 엔티티도 삭제되는 등 
+
+#### 특정 엔티티를 영속 상태로 만들 때 연관된 엔티티도 함께 영속 상태로 전이되는 것을 의미한다.
