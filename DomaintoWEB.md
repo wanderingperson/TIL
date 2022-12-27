@@ -28,3 +28,7 @@ Setter를 통해 주입이 된다. 테스트를 할때 편하지만
 이것보다 나은 방법은 롬복의 @RequiredArgsConstructor를 이용하는건데 final 어노테이션이 있는것만 생성자 주입을 만들어준다.
 
 ![image](https://user-images.githubusercontent.com/114403546/209557954-12480fae-73d5-42ef-8128-f4cb3f900efb.png)
+
+![image](https://user-images.githubusercontent.com/114403546/209680961-66de01f1-a796-4c5f-9aa3-20c4d587e2e9.png)
+
+![image](https://user-images.githubusercontent.com/114403546/209681008-e1fe632d-5b5e-4748-8d51-237d6d1dbc01.png)
