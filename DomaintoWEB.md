@@ -34,3 +34,9 @@ Setter를 통해 주입이 된다. 테스트를 할때 편하지만
 ![image](https://user-images.githubusercontent.com/114403546/209681008-e1fe632d-5b5e-4748-8d51-237d6d1dbc01.png)
 
 ![image](https://user-images.githubusercontent.com/114403546/210074186-d0136186-a3cb-4e83-a7f2-e2922a863b80.png)
+
+![image](https://user-images.githubusercontent.com/114403546/210074959-8154ae21-7782-47c8-9a47-150be4e30667.png)
+
+Stock관리를 할때 Item에 관련되있으므로 Item패키지 안에서 처리를 이루어지게 한다. 처리가 안에서 이루어지므로 @Setter를 빼도된다.
+
+![image](https://user-images.githubusercontent.com/114403546/210075074-40fc9043-2186-4ce6-97d7-d8f9cca5407d.png)
