@@ -40,3 +40,7 @@ Setter를 통해 주입이 된다. 테스트를 할때 편하지만
 Stock관리를 할때 Item에 관련되있으므로 Item패키지 안에서 처리를 이루어지게 한다. 처리가 안에서 이루어지므로 @Setter를 빼도된다.
 
 ![image](https://user-images.githubusercontent.com/114403546/210075074-40fc9043-2186-4ce6-97d7-d8f9cca5407d.png)
+
+#### 상품 리포지토리 개발
+
+![image](https://user-images.githubusercontent.com/114403546/210174981-4ba61702-c6a0-4002-8120-0d18114f7a2f.png)
