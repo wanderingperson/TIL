@@ -44,3 +44,7 @@ Stock관리를 할때 Item에 관련되있으므로 Item패키지 안에서 처�
 #### 상품 리포지토리 개발
 
 ![image](https://user-images.githubusercontent.com/114403546/210174981-4ba61702-c6a0-4002-8120-0d18114f7a2f.png)
+
+#### 상품 서비스 개발
+
+![image](https://user-images.githubusercontent.com/114403546/210233199-8f9c7213-1ef9-4bd9-974d-c26b61610f23.png)
