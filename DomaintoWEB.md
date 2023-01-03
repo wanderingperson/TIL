@@ -48,3 +48,9 @@ Stock관리를 할때 Item에 관련되있으므로 Item패키지 안에서 처�
 #### 상품 서비스 개발
 
 ![image](https://user-images.githubusercontent.com/114403546/210233199-8f9c7213-1ef9-4bd9-974d-c26b61610f23.png)
+
+#### 주문 도메인 개발
+
+![image](https://user-images.githubusercontent.com/114403546/210356562-1fae8ff3-f86b-49f5-9404-21f06b931951.png)
+
+
