@@ -59,6 +59,8 @@ Stock관리를 할때 Item에 관련되있으므로 Item패키지 안에서 처�
 
 ##### 비즈니스 로직
 
+![image](https://user-images.githubusercontent.com/114403546/210359552-5441e8fe-bc29-4344-afc6-e44eeca7e9ef.png)
+
 ![image](https://user-images.githubusercontent.com/114403546/210359117-429d69c4-29d9-4d9d-a751-2edcf7959637.png)
 
 ##### 조회 로직
