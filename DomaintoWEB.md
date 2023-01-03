@@ -53,4 +53,14 @@ Stock관리를 할때 Item에 관련되있으므로 Item패키지 안에서 처�
 
 ![image](https://user-images.githubusercontent.com/114403546/210356562-1fae8ff3-f86b-49f5-9404-21f06b931951.png)
 
+##### 생성 메서드
 
+![image](https://user-images.githubusercontent.com/114403546/210359037-8885230e-7d05-4156-9e3c-6bb6106ae92b.png)
+
+##### 비즈니스 로직
+
+![image](https://user-images.githubusercontent.com/114403546/210359117-429d69c4-29d9-4d9d-a751-2edcf7959637.png)
+
+##### 조회 로직
+
+![image](https://user-images.githubusercontent.com/114403546/210359183-e3c25c40-a8f1-40ca-b6f6-9b68f0a8b1c8.png)
