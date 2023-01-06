@@ -74,3 +74,7 @@ Stock관리를 할때 Item에 관련되있으므로 Item패키지 안에서 처�
 ![image](https://user-images.githubusercontent.com/114403546/210963574-52332b9a-0a7c-4b67-8d6f-2e84f52f6f8c.png)
 
 ![image](https://user-images.githubusercontent.com/114403546/210963693-bc24bcf6-fd71-4e6a-8d63-44ddf7d9289f.png)
+
+![image](https://user-images.githubusercontent.com/114403546/210964019-bd555b42-8747-43d3-8a3b-43937131e19d.png)
+
+![image](https://user-images.githubusercontent.com/114403546/210964131-e2092b49-617b-47af-89c7-54638d692d5f.png)
