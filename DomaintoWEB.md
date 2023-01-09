@@ -78,3 +78,7 @@ Stock관리를 할때 Item에 관련되있으므로 Item패키지 안에서 처�
 ![image](https://user-images.githubusercontent.com/114403546/210964019-bd555b42-8747-43d3-8a3b-43937131e19d.png)
 
 ![image](https://user-images.githubusercontent.com/114403546/210964131-e2092b49-617b-47af-89c7-54638d692d5f.png)
+
+#### 주문 서비스 테스트
+
+![image](https://user-images.githubusercontent.com/114403546/211264316-197c11e2-ba1b-4532-b428-a8f2f911c086.png)
